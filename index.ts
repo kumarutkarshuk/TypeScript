@@ -44,6 +44,7 @@ let names = ['chintu', 'utkarsh']
 let arr = ['chintu', 1]
 arr.push('utkarsh')
 arr.push(2)
+arr[0] = 3
 
 //explicitly defining data type
 let stringArray: string[] = ['chintu', 'utkarsh']
@@ -242,3 +243,14 @@ person = new interfaceWithClass('chintu', 20)
 //generics -> explore
 //only in ts
 //confusing
+
+//enums -> explore
+
+//tuples -> is also a type
+//only in ts
+//similar to arrays
+//type at a position is fixed
+
+let tup: [string, number, boolean] = ['chintu', 1, true]
+// tup[0] = 1
+//check for a catch in lec20

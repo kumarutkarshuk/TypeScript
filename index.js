@@ -39,6 +39,7 @@ let names = ['chintu', 'utkarsh'];
 let arr = ['chintu', 1];
 arr.push('utkarsh');
 arr.push(2);
+arr[0] = 3;
 //explicitly defining data type
 let stringArray = ['chintu', 'utkarsh'];
 //mixed data types
@@ -164,3 +165,14 @@ person = new classes_2.interfaceWithClass('chintu', 20);
 //rendering an html template -> explore more
 //checkout template.ts
 //the template is used with the project in the playlist
+//generics -> explore
+//only in ts
+//confusing
+//enums -> explore
+//tuples -> is also a type
+//only in ts
+//similar to arrays
+//type at a position is fixed
+let tup = ['chintu', 1, true];
+// tup[0] = 1
+//check for a catch in lec20
